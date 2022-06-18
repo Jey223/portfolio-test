@@ -7,21 +7,58 @@
 
     <title>MY PORTFOLIO</title>
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+<style>
+    .bx{
+        display: block;
+    }
+    @media screen and (min-width: 200px) {
+        .nav-link{
+            display: none;
+        }
+        
+    }
+
+    @media screen and (min-width:1024px) {
+        .bx{
+            display: none;
+        }
+        .nav-link{
+            display: block;
+        }
+    }
+</style>
+
 </head>
 <body>
-    <header>
+    <!-- <div class="menu-links">
         <nav>
             <a href="">Home</a>
             <a href="">Case Studies</a>
             <a href="">Testimonials</a>
             <a href="">Recent work</a>
             <a href="">Get In Touch</a>
-            <div class="socials">
-                <a href=""><img src="./images/linkedin.png" alt="Linkedin"></a>
-                <a href=""><img src="./images/behance.png" alt="Behance"></a>
-                <a href=""><img src="./images/twitter.png" alt="Twitter"></a>
+        </nav>
+    </div> -->
+    <header>
+        <nav>
+            <div class="nav-link">
+                <a href="Javascript:void(0);">Home</a>
+                <a href="Javascript:void(0);">Case Studies</a>
+                <a href="Javascript:void(0);">Testimonials</a>
+                <a href="Javascript:void(0);">Recent work</a>
+                <a href="Javascript:void(0);">Get In Touch</a>
             </div>
+
+            
+            <div class="socials">
+                <a href="Javascript:void(0);"><img src="./images/linkedin.png" alt="Linkedin"></a>
+                <a href="Javascript:void(0);"><img src="./images/behance.png" alt="Behance"></a>
+                <a href="Javascript:void(0);"><img src="./images/twitter.png" alt="Twitter"></a>
+            </div>
+
+            <a href="Javascript:void(0);"><i class='bx bx-menu'></i></a>
         </nav>
         <div class="profile">
             <div class="profile-flex">
@@ -35,11 +72,11 @@
             <div class="history">
                 <div>Worked with</div>
                 <div class="companies">
-                    <a href=""><img src="./images/image1.png" alt=""></a>
-                    <a href=""><img src="./images/image2.png" alt=""></a>
-                    <a href=""><img src="./images/image3.png" alt=""></a>
-                    <a href=""><img src="./images/image4.png" alt=""></a>
-                    <a href=""><img src="./images/image5.png" alt=""></a>
+                    <a href="Javascript:void(0);"><img src="./images/image1.png" alt=""></a>
+                    <a href="Javascript:void(0);"><img src="./images/image2.png" alt=""></a>
+                    <a href="Javascript:void(0);"><img src="./images/image3.png" alt=""></a>
+                    <a href="Javascript:void(0);"><img src="./images/image4.png" alt=""></a>
+                    <a href="Javascript:void(0);"><img src="./images/image5.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -69,7 +106,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         sed do eiusmod tempor incididunt ut labore et dolore magna.
                     </p>
-                    <a href="">View case study ></a>
+                    <a href="Javascript:void(0);">View case study ></a>
                 </div>
                 <img src="./images/work1.png" alt="">
             </article>
@@ -99,16 +136,16 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         sed do eiusmod tempor incididunt ut labore et dolore magna.
                     </p>
-                    <a href="">View case study ></a>
+                    <a href="Javascript:void(0);">View case study ></a>
                 </div>
                 <img src="./images/work3.png" alt="">
             </article>
         </section>
 
-
+    
         <!-- section 2 -->
         <section>
-            <div class="holder">
+            <div class="t-holder">
                 <article>
                     <div class="about-work">
                         <h2>
@@ -195,7 +232,7 @@
                             sed do eiusmod tempor incididunt ut labore et dolore magna.
 
                         </p>
-                        <a href="Javascript=void(0)">Know more ></a>
+                        <a href="Javascript:void(0);">Know more ></a>
                     </div>
                     <div class="work-view">
                         <img src="./images/main-work2.png" alt="">
@@ -205,7 +242,7 @@
                             sed do eiusmod tempor incididunt ut labore et dolore magna.
 
                         </p>
-                        <a href="Javascript=void(0)">Know more ></a>
+                        <a href="Javascript:void(0);">Know more ></a>
                     </div>
                     <div class="next">  <h5> <span> > </span></h5> </div>
                 </div>
@@ -214,7 +251,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer> 
         <div class="top">
             <div class="contact">
                 <h2>
@@ -245,6 +282,6 @@
         </div>
         
 
-    </footer>
+    </footer> 
 </body>
 </html>

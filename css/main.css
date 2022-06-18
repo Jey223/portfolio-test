@@ -24,6 +24,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'IBM Plex Mono', monospace;
+    width: 100%;
+    position: relative;
 }
 
 /* header */
@@ -32,21 +34,43 @@ header{
     background-color:#080808;
 }
 nav{
-    height: 70px;
-    width: 90%;
+    height: 50px;
+    max-width: 90%;
     margin: 0 auto;
     background-color: #1B1B1B;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    padding: 0px 20px;
     display: flex;
     justify-content: space-between;
-    padding: 0px 100px;
     align-items: center;
+
+}
+.nav-link a{
+    margin-left:55px ;
 }
 nav a{
     color: #9C9C9C;
     font-size: 14px;
 }
+
+.bx{
+    /* display: block; */
+    font-size: 1.5rem;
+    color: #9C9C9C;
+}
+
+/* a > .bx:focus + .menu-links{
+    display: block;
+    width: 100%;
+    display: absolute;
+    height: 100vh;
+    background-color: red;
+    top: 0;
+    left: 0;
+
+} */
+
 
 .socials a {
     padding: 0px 10px;
@@ -66,9 +90,9 @@ nav a{
 .profile{
     width: 90%;
     margin: 0 auto;
-    padding: 100px 100px 30px 100px;
+    padding: 50px 20px 15px 20px;
     display: grid;
-    grid-template-rows: 1fr 150px;
+    grid-template-rows: 1fr 70px;
 }
 .profile-flex{
     display: flex;
@@ -76,8 +100,8 @@ nav a{
     justify-content: space-between;
 }
 .profile-flex img{
-    width: 300px;
-    height: 300px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -87,22 +111,21 @@ nav a{
     align-content: center;
 }
 .about-me h1{
-    font-size: 35px;
+    font-size: 1rem;
     color: #ffffff;
     margin: 0;
 }
 .about-me p{
-    font-size: 14px;
+    font-size: 10px;
     color: #9c9c9c;
-    line-height: 24px;
     margin: 0;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .about-me button{
-    width: 250px;
-    height: 50px;
+    width: 120px;
+    height: 30px;
     border: 1px solid #62BA1B;
-    font-size: 14px;
+    font-size: 8px;
     font-family: 'IBM Plex Mono', monospace;
     border-radius: 4px;
     background: #3F8E00;
@@ -110,26 +133,28 @@ nav a{
 }
 .history div{
     color: #FFFFFF;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
 }
 .history .companies{
-    height:60px;
+    height:40px;
     display: flex;
     justify-content: space-between;
 }
 .history .companies img{
-    width: 120px;
-    height: 80%;
+    width: 40px;
+    height: 70%;
     object-fit: contain;
     border: 1px solid #1B1B1B;
     border-radius: 6px;
-    padding: 15px 20px;
+    padding: 0px 2px;
 }
 
-/* section */
+
+ /* section */
 
 section{
-    padding: 80px 0px;
+    padding: 40px 0px;
     width: 100%;
     
 }
@@ -139,44 +164,40 @@ section{
 section:nth-of-type(1){
     background:#f5f5f5;
     display: grid;
-    grid-row-gap: 80px;
+    grid-row-gap: 40px;
 }
 section:nth-of-type(1) article{
-    width:70%;
+    width:75%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    
 }
 .about-work{
     text-align: center;
-    width: 70%;
     margin: 0 auto;
-    flex-direction: column;
 }
 .about-work h2{
-    font-size: 34px;
+    font-size: 20px;
     color: #080808;
     padding: 0;
 }
 .about-work p{
-    font-size: 14px;
+    font-size: 9px;
+    line-height: 16px;
     color: #9c9c9c;
     padding: 0;
 }
-article .work{
-    width: 48%;
-    display: grid;
-    align-content: center;
+.work{
+    margin-bottom: 20px;
+    width: 100%;
 }
 .work div{
-    width: 84px;
+    width: 54px;
     padding: 10px 0px;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 8px;
     border-radius: 50px;
     display: inline-block;
     text-align: center;
+    margin-top: 10px;
 }
 .work .fintech{
     color:#FFA217;
@@ -191,24 +212,24 @@ article .work{
     background-color: #E0FFF8;
 }
 .work h3{
-    font-size: 24px;
+    font-size: 14px;
     color: #080808;
     margin: 10px 0px;
 }
 .work p{
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 16px;
     color: #9C9C9C;
     margin: 0px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .work a{
-   text-align: center;
-   width: 200px;
-   padding: 10px 0px;
-   color: white;
-   font-size: 14px;
-   border-radius: 4px;
+    text-align: center;
+    width: 150px;
+    padding: 10px 10px;
+    color: white;
+    font-size: 10px;
+    border-radius: 4px;
 }
 section article:nth-of-type(2) a{
     background: #FFA217;
@@ -223,79 +244,71 @@ section article:nth-of-type(4) a{
     box-shadow: 0px 8px 30px rgba(42, 176, 144, 0.1);   
 }
 article img{
-    width: 48%;
-    height: 300px;
+    width: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
+
 
 /* section 2 */
 
 section:nth-of-type(2){
     background-color: #080808;
 }
-section:nth-of-type(2) .holder{
+section:nth-of-type(2) .t-holder{
     width: 80%;
     margin: 0 auto;
 }
-section:nth-of-type(2) .about-work{
-    width: 55%;
-}
-
 section:nth-of-type(2) .about-work h2{
     color: #ffffff;
 }
-
 section .client-align{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row-gap: 80px;
-    grid-column-gap: 50px;
-    padding-top: 80px;
+    grid-row-gap: 40px;
+    padding-top: 30px;
 }
 .client-align article{
-    height: 240px;
-    padding: 30px;
+    height: 160px;
+    padding: 20px;
     border-width: 1px;
     border-style: solid;
     /* background-clip: padding-box; */
     /* border-radius: 16px; */
     border-image:linear-gradient(to left,#0B0B0B 0%,#484848 100%) 1;
     position: relative;
-  
 }
 .colum{
-   position: absolute;
-   top: -35px;
-   left: 10px;
-   font-weight: 400;
-   font-size: 100px;
-   font-family: 'Raleway', sans-serif;
-   color: #FFFFFF;
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    font-weight: 400;
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
 }
 .client-align p{
-    font-size: 1rem;
+    font-size: 12px;
     color: #9C9C9C;
-    padding-bottom: 15px;
+    padding-bottom: 8px;
 }
 .client-details{
-    height:70px;
+    height:40px;
     display: flex;
     align-items: center;
     justify-content: start;
 }
 .client-details img{
-    width: 70px;
+    width: 40px;
     height:100%;
     object-fit: cover;
     border-radius: 50%;
 }
 .client-details h4{
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 14px;
     font-weight: 700;
     color: #FFFFFF;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 /* section 3 */
@@ -303,10 +316,10 @@ section:nth-of-type(3){
     background:#f5f5f5;
 }
 section:nth-of-type(3) .about-work{
-    width: 50%;
+    width: 80%;
 }
 .view-holder{
-    padding-top: 60px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -317,37 +330,36 @@ section:nth-of-type(3) .about-work{
     align-items: center;
 }
 .previous h5 span, .next h5 span{
-    font-size: 15px;
-    padding: 10px;
+    font-size: 12px;
+    padding: 6px;
     border: 1px solid #9C9C9C;
     border-radius: 100%;
     color: #9C9C9C;
 }
 .work-view{
-    width: 36%;
+    width: 34%;
 }
 .work-view img{
     width: 100%;
-    height: 300px;
     object-fit: cover;
 }
 .work-view h3{
-    padding-top: 25px;
-    font-size: 30px;
+    padding-top: 10px;
+    font-size: 14px;
     color: #080808;
     font-weight: 800;
     margin: 0;
 }
 .work-view p{
-    padding: 15px 0px;
-    font-size: 1rem;
+    padding: 5px 0px;
+    font-size: 12px;
     font-weight: 400;
     color: #9C9C9C;
 }
 .work-view a{
-    padding: 10px 20px;
+    padding:6px 12px;
     border: 1px solid #62BA1B;
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'IBM Plex Mono', monospace;
     border-radius: 4px;
     background: #3F8E00;
@@ -355,53 +367,51 @@ section:nth-of-type(3) .about-work{
     color: #FFFFFF;
 }
 
+ /* Footer */
 
-
-/* Footer */
-
-footer .top{
+ footer .top{
     background-color: #080808;
-    padding: 80px 0px;
+    padding: 30px 0px;
 }
 footer .contact{
-    width: 45%;
+    width: 70%;
     margin: 0 auto;
-   padding-bottom: 40px;
+padding-bottom: 10px;
     text-align: center;
 }
 footer .contact h2{
     margin: 0;
-    font-size: 35px;
+    font-size: 1.2rem;
     color: #FFFFFF;
 }
 footer .contact p{
-   font-size: 1rem;
-   color: #9C9C9C;
+font-size: 12px;
+color: #9C9C9C;
 }
 
 form{
-    width: 30%;
+    width: 70%;
     margin: 0 auto;
     color: #757575;
 }
 form div{
-   font-size: 1rem;
-   color: #FFFFFF;
+font-size: 14px;
+color: #FFFFFF;
 }
 form input{
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     background: #F8F8F8;
     border: 1px solid #D8D8D8;
     border-radius: 4px;
-    margin-bottom:20px ;
+    margin-bottom:12px ;
 }
 form input:nth-of-type(3){
-    height: 120px;
+    height: 100px;
 }
 form button{
     width: 100%;
-    height: 50px;
+    height: 35px;
     border: 1px solid #62BA1B;
     font-size: 14px;
     font-family: 'IBM Plex Mono', monospace;
@@ -412,7 +422,8 @@ form button{
 
 footer .bottom{
     width: 100%;
-    height: 50px;
+    height: 40px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -423,10 +434,636 @@ footer .bottom{
 
 
 
+
+/* Ipad view */
+@media screen and (min-width:768px) {
+    nav{
+        height: 70px;
+        padding: 0px 30px;
+    
+    }
+   
+    nav a{
+        color: #9C9C9C;
+        font-size: 1rem;
+    }
+    
+    .bx{
+        /* display: block; */
+        font-size: 1.5rem;
+        color: #9C9C9C;
+    }
+    F
+    
+    .socials a {
+        padding: 0px 10px;
+    }
+    .socials a:first-of-type{
+        padding-left: 0px;
+    }
+    .socials a:last-of-type{
+        padding-right: 0px;
+    }
+    .socials a img{
+        width: 18px;
+        height: 18px;
+        object-fit: contain;
+    }
+    
+    .profile{
+        width: 90%;
+        margin: 0 auto;
+        padding: 50px 20px 15px 20px;
+        display: grid;
+        grid-template-rows: 1fr 70px;
+    }
+    .profile-flex{
+        display: flex;
+        padding-bottom:20px;
+        justify-content: space-between;
+    }
+    .profile-flex img{
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .about-me{
+        width:50% ;
+        display: grid;
+        align-content: center;
+    }
+    .about-me h1{
+        font-size: 1rem;
+        color: #ffffff;
+        margin: 0;
+    }
+    .about-me p{
+        font-size: 10px;
+        color: #9c9c9c;
+        margin: 0;
+        padding: 10px 0;
+    }
+    .about-me button{
+        width: 120px;
+        height: 30px;
+        border: 1px solid #62BA1B;
+        font-size: 8px;
+        font-family: 'IBM Plex Mono', monospace;
+        border-radius: 4px;
+        background: #3F8E00;
+        box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.5);
+    }
+    .history div{
+        color: #FFFFFF;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .history .companies{
+        height:40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .history .companies img{
+        width: 40px;
+        height: 70%;
+        object-fit: contain;
+        border: 1px solid #1B1B1B;
+        border-radius: 6px;
+        padding: 0px 2px;
+    }
+    
+    
+     /* section */
+    
+    section{
+        padding: 40px 0px;
+        width: 100%;
+        
+    }
+    
+    /* section 1 */
+    
+    section:nth-of-type(1){
+        background:#f5f5f5;
+        display: grid;
+        grid-row-gap: 40px;
+    }
+    section:nth-of-type(1) article{
+        width:75%;
+        margin: 0 auto;
+    }
+    .about-work{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .about-work h2{
+        font-size: 20px;
+        color: #080808;
+        padding: 0;
+    }
+    .about-work p{
+        font-size: 9px;
+        line-height: 16px;
+        color: #9c9c9c;
+        padding: 0;
+    }
+    .work{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .work div{
+        width: 54px;
+        padding: 10px 0px;
+        font-weight: 700;
+        font-size: 8px;
+        border-radius: 50px;
+        display: inline-block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .work .fintech{
+        color:#FFA217;
+        background-color: #FFF6E9;
+    }
+    .work .edtech{
+        color:#000AFF;
+        background-color: #D0E6FF;
+    }
+    .work .pharma{
+        color: #2ab090;
+        background-color: #E0FFF8;
+    }
+    .work h3{
+        font-size: 14px;
+        color: #080808;
+        margin: 10px 0px;
+    }
+    .work p{
+        font-size: 12px;
+        line-height: 16px;
+        color: #9C9C9C;
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+    .work a{
+        text-align: center;
+        width: 150px;
+        padding: 10px 10px;
+        color: white;
+        font-size: 10px;
+        border-radius: 4px;
+    }
+    section article:nth-of-type(2) a{
+        background: #FFA217;
+        box-shadow: 0px 8px 30px rgba(42, 176, 144, 0.1);   
+    }
+    section article:nth-of-type(3) a{
+        background: #000AFF;
+        box-shadow: 0px 8px 30px rgba(0, 10, 255, 0.1); 
+    }
+    section article:nth-of-type(4) a{
+        background: #2AB090;
+        box-shadow: 0px 8px 30px rgba(42, 176, 144, 0.1);   
+    }
+    article img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    
+    
+    /* section 2 */
+    
+    section:nth-of-type(2){
+        background-color: #080808;
+    }
+    section:nth-of-type(2) .t-holder{
+        width: 80%;
+        margin: 0 auto;
+    }
+    section:nth-of-type(2) .about-work h2{
+        color: #ffffff;
+    }
+    section .client-align{
+        display: grid;
+        grid-row-gap: 40px;
+        padding-top: 30px;
+    }
+    .client-align article{
+        height: 160px;
+        padding: 20px;
+        border-width: 1px;
+        border-style: solid;
+        /* background-clip: padding-box; */
+        /* border-radius: 16px; */
+        border-image:linear-gradient(to left,#0B0B0B 0%,#484848 100%) 1;
+        position: relative;
+    }
+    .colum{
+        position: absolute;
+        top: -25px;
+        left: 10px;
+        font-weight: 400;
+        font-size: 70px;
+        font-family: 'Raleway', sans-serif;
+        color: #FFFFFF;
+    }
+    .client-align p{
+        font-size: 12px;
+        color: #9C9C9C;
+        padding-bottom: 8px;
+    }
+    .client-details{
+        height:40px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    .client-details img{
+        width: 40px;
+        height:100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .client-details h4{
+        margin: 0;
+        font-size: 14px;
+        font-weight: 700;
+        color: #FFFFFF;
+        padding-left: 15px;
+    }
+    
+    /* section 3 */
+    section:nth-of-type(3){
+        background:#f5f5f5;
+    }
+    section:nth-of-type(3) .about-work{
+        width: 80%;
+    }
+    .view-holder{
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .previous,.next{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .previous h5 span, .next h5 span{
+        font-size: 12px;
+        padding: 6px;
+        border: 1px solid #9C9C9C;
+        border-radius: 100%;
+        color: #9C9C9C;
+    }
+    .work-view{
+        width: 34%;
+    }
+    .work-view img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .work-view h3{
+        padding-top: 10px;
+        font-size: 14px;
+        color: #080808;
+        font-weight: 800;
+        margin: 0;
+    }
+    .work-view p{
+        padding: 5px 0px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #9C9C9C;
+    }
+    .work-view a{
+        padding:6px 12px;
+        border: 1px solid #62BA1B;
+        font-size: 12px;
+        font-family: 'IBM Plex Mono', monospace;
+        border-radius: 4px;
+        background: #3F8E00;
+        box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.5);
+        color: #FFFFFF;
+    }
+    
+     /* Footer */
+    
+     footer .top{
+        background-color: #080808;
+        padding: 30px 0px;
+    }
+    footer .contact{
+        width: 70%;
+        margin: 0 auto;
+    padding-bottom: 10px;
+        text-align: center;
+    }
+    footer .contact h2{
+        margin: 0;
+        font-size: 1.2rem;
+        color: #FFFFFF;
+    }
+    footer .contact p{
+    font-size: 12px;
+    color: #9C9C9C;
+    }
+    
+    form{
+        width: 70%;
+        margin: 0 auto;
+        color: #757575;
+    }
+    form div{
+    font-size: 14px;
+    color: #FFFFFF;
+    }
+    form input{
+        width: 100%;
+        padding: 10px;
+        background: #F8F8F8;
+        border: 1px solid #D8D8D8;
+        border-radius: 4px;
+        margin-bottom:12px ;
+    }
+    form input:nth-of-type(3){
+        height: 100px;
+    }
+    form button{
+        width: 100%;
+        height: 35px;
+        border: 1px solid #62BA1B;
+        font-size: 14px;
+        font-family: 'IBM Plex Mono', monospace;
+        border-radius: 4px;
+        background: #3F8E00;
+        box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.5);
+    }
+    
+    footer .bottom{
+        width: 100%;
+        height: 40px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1B1B1B;
+        color: #9C9C9C;
+    }
+    
+
+    
+}
+
+
+
+
+
+
+/* Laptop View */
+
+@media screen and (min-width:1024px) {
+
+    .nav{
+        height: 70px;
+        max-width: 90%;
+        padding: 0px 100px;
+    }
+    .socials a {
+        padding: 0px 10px;
+    }
+    .profile{
+        width: 90%;
+        padding: 100px 100px 30px 100px;
+        grid-template-rows: 1fr 150px;
+    }
+    .profile-flex img{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .about-me h1{
+        font-size: 35px;
+    }
+    .about-me p{
+        font-size: 14px;
+        line-height: 24px;
+        padding: 20px 0;
+    }
+    .about-me button{
+        width: 250px;
+        height: 50px;
+        border: 1px solid #62BA1B;
+        font-size: 14px;
+        font-family: 'IBM Plex Mono', monospace;
+        border-radius: 4px;
+        background: #3F8E00;
+        box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.5);
+    }
+    .history div{
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+    .history .companies{
+        height:60px;
+    }
+    .history .companies img{
+        width: 120px;
+        height: 80%;
+        padding: 15px 20px;
+    }
+
+    /* section */
+
+    section{
+        padding: 80px 0px;
+        
+    }
+
+    /* section 1 */
+
+    section:nth-of-type(1){
+        grid-row-gap: 80px;
+    }
+
+    
+    section:nth-of-type(1) article{
+        width:70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-work{
+        width: 80%;
+        flex-direction: column;
+    }
+    .about-work h2{
+        font-size: 34px;
+    }
+    .about-work p{
+        line-height: 30px;
+    }
+    article .work{
+        width: 48%;
+        display: grid;
+        align-content: center;
+    }
+    .work div{
+        width: 84px;
+        font-size: 12px;
+    }
+    .work h3{
+        font-size: 24px;
+    }
+    .work p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+    .work a{
+    width: 200px;
+    padding: 10px 0px;
+    font-size: 14px;
+    }
+    section article:nth-of-type(2) a{
+        background: #FFA217;
+        box-shadow: 0px 8px 30px rgba(42, 176, 144, 0.1);   
+    }
+    section article:nth-of-type(3) a{
+        background: #000AFF;
+        box-shadow: 0px 8px 30px rgba(0, 10, 255, 0.1); 
+    }
+    section article:nth-of-type(4) a{
+        background: #2AB090;
+        box-shadow: 0px 8px 30px rgba(42, 176, 144, 0.1);   
+    }
+    article img{
+        width: 48%;
+        height: 300px;
+    }
+
+
+    /* section 2 */
+    section:nth-of-type(2) .about-work{
+        width: 55%;
+    }
+    section .client-align{
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 80px;
+        grid-column-gap: 50px;
+        padding-top: 80px;
+    }
+    .client-align article{
+        height: 240px;
+        padding: 30px;
+    }
+    .colum{
+    top: -35px;
+    font-size: 100px;
+    }
+    .client-align p{
+        font-size: 1rem;
+        padding-bottom: 15px;
+    }
+    .client-details{
+        height:70px;
+    }
+    .client-details img{
+        width: 70px;
+    }
+    .client-details h4{
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding-left: 20px;
+    }
+
+
+    /* section 3 */
+    section:nth-of-type(3) .about-work{
+        width: 50%;
+    }
+    .view-holder{
+        padding-top: 60px;
+    }
+    .previous h5 span, .next h5 span{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .work-view{
+        width: 36%;
+    }
+    .work-view img{
+        height: 300px;
+    }
+    .work-view h3{
+        padding-top: 25px;
+        font-size: 30px;
+    }
+    .work-view p{
+        padding: 15px 0px;
+        font-size: 1rem;
+    }
+    .work-view a{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+
+    /* Footer */
+
+    footer .top{
+        padding: 80px 0px;
+    }
+    footer .contact{
+        width: 45%;
+    padding-bottom: 40px;
+    }
+    footer .contact h2{
+        font-size: 35px;
+    }
+    footer .contact p{
+    font-size: 1rem;
+    }
+
+    form{
+        width: 30%;
+    }
+    form div{
+    font-size: 1rem;
+    }
+    form input{
+        width: 100%;
+        padding: 15px;
+        margin-bottom:20px ;
+    }
+    form input:nth-of-type(3){
+        height: 120px;
+    }
+    form button{
+        height: 50px;
+        font-size: 14px;
+    }
+
+    footer .bottom{
+        height: 50px;
+    }
+
+}
+    
+
+
+/* Larger Screen */
+
 @media screen and (min-width:1280px) {
     nav a{
         font-size: 1rem;
-    }    
+    }  
+    
+
     .socials a {
         padding: 0px 15px;
     }
@@ -488,4 +1125,5 @@ footer .bottom{
         font-size: 1.2rem;
         color: #9C9C9C;
     }
+
 }

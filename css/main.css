@@ -28,6 +28,7 @@ body{
     position: relative;
 }
 
+
 /* header */
 
 header{
@@ -46,19 +47,20 @@ nav{
     align-items: center;
 
 }
-.nav-link a{
-    margin-left:55px ;
-}
+
 nav a{
     color: #9C9C9C;
     font-size: 14px;
 }
 
 .bx{
-    /* display: block; */
+    display: block;
     font-size: 1.5rem;
     color: #9C9C9C;
 }
+.nav-link{
+    display: none;
+}  
 
 /* a > .bx:focus + .menu-links{
     display: block;
@@ -149,6 +151,9 @@ nav a{
     border: 1px solid #1B1B1B;
     border-radius: 6px;
     padding: 0px 6px;
+}
+.companies img:nth-of-type(5){
+    padding: 0px 12px;
 }
 
 
@@ -654,13 +659,31 @@ footer .bottom{
 
 @media screen and (min-width:1024px) {
 
-    .nav{
+    nav{
         height: 70px;
-        max-width: 90%;
+        width: 90%;
         padding: 0px 100px;
     }
+    .nav-link{
+        display: block;
+    }
+    .nav-link a{
+        padding-left:55px ;
+    }
+    .nav-link a:first-of-type{
+        padding-left: 0px;
+    }
     .socials a {
-        padding: 0px 10px;
+        padding: 0px 6px;
+    }
+    .socials a:first-of-type{
+        padding-left: 0px;
+    }
+    .socials a:last-of-type{
+        padding-right: 0px;
+    }
+    a .bx-menu{
+        display: none;
     }
     .profile{
         width: 90%;
@@ -723,6 +746,10 @@ footer .bottom{
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+    }
+    section:nth-of-type(1) article:nth-of-type(3){
+        display: flex;
+      flex-direction: row;
     }
     .about-work{
         width: 80%;
@@ -893,6 +920,12 @@ footer .bottom{
 
     .socials a {
         padding: 0px 15px;
+    }
+    .socials a:first-of-type{
+        padding-left: 0px;
+    }
+    .socials a:last-of-type{
+        padding-right: 0px;
     }
     .socials a img{
         width: 20px;

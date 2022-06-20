@@ -164,7 +164,7 @@ section:nth-of-type(1){
     
 }
 section:nth-of-type(1) article{
-    width:75%;
+    width:80%;
     margin: 0 auto;
     padding-bottom: 40px;
 }
@@ -261,6 +261,7 @@ section:nth-of-type(2) .t-holder{
     width: 80%;
     margin: 0 auto;
 }
+
 section:nth-of-type(2) .about-work h2{
     color: #ffffff;
 }
@@ -652,7 +653,7 @@ footer .bottom{
     nav{
         height: 70px;
         width: 90%;
-        padding: 0px 80px;
+        padding: 0px 50px;
     }
     .nav-link{
         display: block;
@@ -682,7 +683,7 @@ footer .bottom{
     }
     .profile{
         width: 90%;
-        padding: 100px 80px 30px 80px;
+        padding: 100px 50px 30px 50px;
         grid-template-rows: 1fr 150px;
     }
     .profile-flex img{
@@ -797,6 +798,11 @@ footer .bottom{
 
 
     /* section 2 */
+    section:nth-of-type(2) .t-holder{
+        width: 90%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
     section:nth-of-type(2) .about-work{
         width: 55%;
     }
@@ -908,9 +914,13 @@ footer .bottom{
 /* Larger Screen */
 
 @media screen and (min-width:1280px) {
+    nav{
+        padding: 0px 80px;
+    }
     nav a{
         font-size: 1rem;
-    }  
+    } 
+
     
 
     .socials a {
@@ -927,7 +937,9 @@ footer .bottom{
         height: 20px;
     }
     .profile{
-       padding-bottom: 50px;
+        width: 90%;
+        padding: 100px 80px 50px 80px;
+        grid-template-rows: 1fr 150px;
     }
     .profile-flex img{
         width: 400px;

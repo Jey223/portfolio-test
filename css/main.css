@@ -50,12 +50,11 @@ nav{
 
 nav a{
     color: #9C9C9C;
-    font-size: 1.5rem;
 }
 
 .bx{
     display: block;
-
+    font-size: 1.5rem;
     color: #9C9C9C;
 }
 .nav-link{
@@ -660,6 +659,7 @@ footer .bottom{
     }
     .nav-link a{
         padding-left:30px ;
+        font-size: 1rem;
     }
     .nav-link a:first-of-type{
         padding-left: 0px;

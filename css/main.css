@@ -50,28 +50,19 @@ nav{
 
 nav a{
     color: #9C9C9C;
-    font-size: 14px;
+    font-size: 1.5rem;
 }
 
 .bx{
     display: block;
-    font-size: 1.5rem;
+
     color: #9C9C9C;
 }
 .nav-link{
     display: none;
 }  
 
-/* a > .bx:focus + .menu-links{
-    display: block;
-    width: 100%;
-    display: absolute;
-    height: 100vh;
-    background-color: red;
-    top: 0;
-    left: 0;
 
-} */
 
 
 .socials a {
@@ -84,8 +75,8 @@ nav a{
     padding-right: 0px;
 }
 .socials a img{
-    width: 18px;
-    height: 18px;
+    width: 1rem;
+    height: 1rem;
     object-fit: contain;
 }
 
@@ -662,19 +653,23 @@ footer .bottom{
     nav{
         height: 70px;
         width: 90%;
-        padding: 0px 100px;
+        padding: 0px 80px;
     }
     .nav-link{
         display: block;
     }
     .nav-link a{
-        padding-left:55px ;
+        padding-left:30px ;
     }
     .nav-link a:first-of-type{
         padding-left: 0px;
     }
     .socials a {
         padding: 0px 6px;
+    }
+    .socials a img{
+        width: 1rem;
+        height: 1rem;
     }
     .socials a:first-of-type{
         padding-left: 0px;
@@ -687,7 +682,7 @@ footer .bottom{
     }
     .profile{
         width: 90%;
-        padding: 100px 100px 30px 100px;
+        padding: 100px 80px 30px 80px;
         grid-template-rows: 1fr 150px;
     }
     .profile-flex img{

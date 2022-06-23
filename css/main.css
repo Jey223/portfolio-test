@@ -150,7 +150,7 @@ section:first-of-type{
 }
 .work h2{
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 800;
     color: #080808;
 }
 .work p{
@@ -247,7 +247,6 @@ section:nth-of-type(2){
 }
 .testimony h2{
     font-size: 14px;
-    font-weight: 700;
     color: #FFFFFF;
 }
 .testimony p{
@@ -315,7 +314,6 @@ section:nth-of-type(3){
 }
 .recent h2{
     font-size: 14px;
-    font-weight: 700;
     color: #080808;
 }
 .recent p{
@@ -388,7 +386,6 @@ section:nth-of-type(3){
 }
 .contact h2{
     font-size: 14px;
-    font-weight: 800;
     color: #FFFFFF;
 }
 .contact p{
@@ -790,7 +787,7 @@ button{
         padding-bottom: 50px;
     }
     .work h2{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
     .work p{
         font-size: 14px;
@@ -964,7 +961,7 @@ button{
         padding-bottom: 50px;
     }
     .contact h2{
-        font-size: 1.2rem;
+        font-size: 2.2rem;
     }
     .contact p{
         font-size: 14px;

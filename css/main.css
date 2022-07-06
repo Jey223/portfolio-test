@@ -351,8 +351,8 @@ section:nth-of-type(3){
     justify-items: center;
 }
 .previous, .next{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     border: 1px solid #9C9C9C;
     color:#9C9C9C ;
@@ -360,8 +360,8 @@ section:nth-of-type(3){
     place-items: center;
 }
 .previous .left-arrow, .next .right-arrow{
-    width: 6px;
-    height: 10px;
+    width: 5px;
+    height: 8px;
 }
 .review img{
     width: 100%;
@@ -693,8 +693,8 @@ button .right-arrow{
         gap: 50px;
     }
     .previous, .next{
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
     }
     .details{
         margin-top: 20px;
@@ -774,64 +774,64 @@ button .right-arrow{
     nav{
         height: 70px;
         max-width: 90%;
-        padding: 0px 100px; 
+        padding: 0px 80px; 
     }
     .nav-link a{
-        font-size: 14px;
-        padding-left: 50px;
+        font-size: 12px;
+        padding-left: 30px;
     }
     .socials a{
-       padding-left: 15px;
+       padding-left: 10px;
      }
     .socials > a img{
-        width: 18px;
-        height: 18px;
+        width: 16px;
+        height: 16px;
     }
     .profile{
-        padding: 50px 100px 40px 100px ;
+        padding: 50px 80px 40px 80px ;
     }
     .banner{
         width: 50%;
     }
     .banner h1{
-        font-size: 3rem;
+        font-size: 2.2rem;
     }
     .banner p{
-        font-size: 1rem;
+        font-size: 11px;
         padding: 20px 0px;
-        line-height: 25px;
+        line-height: 20px;
 
     }
     .banner a{
-        width: 320px;
+        width: 250px;
         margin: 0px;
-        padding: 20px 70px;
-        font-size: 14px;
+        padding: 20px 40px;
+        font-size: 12px;
         box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.5);
     }
     .banner a .right-arrow {
-        width: 8px;
-        height: 12px;
+        width: 6px;
+        height: 10px;
     }
     
     .history{
         width: 90%;
-        padding: 0px 100px 40px 100px;
+        padding: 0px 80px 40px 80px;
     }
     span{
         font-size: 14px;
         padding-bottom: 20px;
     }
     .companies a{
-        width: 170px;
-        height: 60px;
+        width: 130px;
+        height: 50px;
     }
     .companies a img{
         width: 100%;
-        padding: 0px 40px;
+        padding: 0px 30px;
     }
     .companies a:last-of-type img{
-        padding: 0px 50px;
+        padding: 0px 40px;
     }
 
 
@@ -842,17 +842,17 @@ button .right-arrow{
     }
 
     .work{
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
         text-align: center;
         padding-bottom: 50px;
     }
     .work h2{
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
     .work p{
-        font-size: 14px;
-        line-height: 24px;
+        font-size: 12px;
+        line-height: 20px;
     }
 
     .work-case{
@@ -883,16 +883,16 @@ button .right-arrow{
         margin-bottom: 20px;
     }
     .about-work p{
-        font-size: 1rem;
+        font-size: 11px;
         margin-bottom: 20px;
-        line-height: 24px;
+        line-height: 20px;
     }
     .about-work a{
         font-size: 12px;
         width: 200px;
         text-align: center;
-        font-weight: 600;
-        padding: 10px 30px;
+        font-weight: 700;
+        padding: 15px 30px;
         color: #ffffff;
     }
     .about-work a .right-arrow{
@@ -911,30 +911,30 @@ button .right-arrow{
         padding: 60px 0px;
     }
     .testimony{
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
         padding-bottom: 50px;
     }
     .testimony h2{
-        font-size: 2.2rem;
+        font-size: 2rem;
         font-weight: 700;
     }
     .testimony p{
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 10px;
-        line-height: 24px;
+        line-height: 20px;
     }
     .client-align{
         display: flex;
         justify-content: space-between;
-        padding: 0px 100px;
+        padding: 0px 80px;
         flex-wrap: wrap;
     }
 
     .client-align article{
-        width: 40%;
+        width: 45%;
         position: relative;
-        padding: 25px;
+        padding: 20px;
         border-width: 1px;
         border-style: solid;
         border-image: linear-gradient(to left,#0B0B0B 0%,#484848 100%) 1;
@@ -944,13 +944,12 @@ button .right-arrow{
         height: 20px;
     }
     .client-align p{
-        font-size: 14px;
-        line-height: 24px;
+        font-size: 12px;
+        line-height: 20px;
         margin-bottom: 20px;
     }
     .client-details{
         display: flex;
-        height: 40px;
     }
     
     .client-details p{
@@ -965,29 +964,23 @@ button .right-arrow{
         padding: 70px 0px;
     }
     .recent{
-        width: 45%;
+        width: 55%;
         margin: 0 auto;
         padding-bottom: 50px;
     }
     .recent h2{
-        font-size: 2.2rem;
+        font-size: 2rem;
         font-weight: 700;
     }
     .recent p{
-        font-size: 1rem;
+        font-size: 14px;
         margin-top: 10px;
-        line-height: 24px;
+        line-height: 20px;
     }
     .review{
-        width: 100%;
         display: flex;
-        gap: 20px;
         justify-content: space-between;
         align-items: center;
-    }
-    .previous, .next{
-        width: 50px;
-        height: 50px;
     }
     .review article{
         width: 40%;
@@ -999,48 +992,50 @@ button .right-arrow{
 
     .details{
         margin-top: 20px;
-        width: 90%;
+        width: 100%;
     }
     .details h3{
         font-size: 1.2rem;
     }
     .details p{
         color: #9C9C9C;
-        font-size: 14px;
+        font-size: 10px;
         margin-bottom: 15px;
-        line-height: 24px;
+        line-height: 20px;
     }
     .details a{
-        width: 30%;
-        font-size: 12px;
-        padding: 10px 30px;
+        width: 7.5rem;
+        font-size: 10px;
+        padding: 10px 20px;
     }
     .details a .right-arrow{
-        width: 6px;
+        width: 5px;
     }
+
+
 
     /* footer */
     .foot-upper{
         padding: 70px 0px;
     }
     .contact{
-        width: 40%;
+        width: 60%;
         margin: 0 auto;
         padding-bottom: 50px;
     }
     .contact h2{
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
     .contact p{
-        font-size: 12px;
+        font-size: 14px;
         line-height: 24px;
         
     }
     form{
-        width: 25%;
+        width: 33%;
     }
     label{
-        font-size: 12px;
+        font-size: 14px;
     }
     input{
         margin-bottom: 25px;
@@ -1055,7 +1050,157 @@ button .right-arrow{
 
     .foot-lower{
         height: 70px;
-        font-size: 12px;
+        font-size: 14px;
     }
     
+}
+
+@media screen and (min-width:1440px) {
+    nav{
+        padding: 0px 100px; 
+    }
+    .nav-link a{
+        font-size: 14px;
+        padding-left: 50px;
+    }
+    .socials a{
+       padding-left: 15px;
+     }
+    .socials > a img{
+        width: 18px;
+        height: 18px;
+    }
+    .profile{
+        padding: 50px 100px 40px 100px ;
+    }
+    .banner h1{
+        font-size: 3rem;
+    }
+    .banner p{
+        font-size: 1rem;
+    }
+    .banner a{
+        width: 320px;
+        padding: 20px 70px;
+        font-size: 14px;
+    }
+    .banner a .right-arrow {
+        width: 8px;
+        height: 12px;
+    }
+    .history{
+        padding: 0px 100px 40px 100px;
+    }
+    .companies a{
+        width: 170px;
+        height: 60px;
+    }
+    .companies a img{
+        padding: 0px 40px;
+    }
+    .companies a:last-of-type img{
+        padding: 0px 50px;
+    }
+
+
+
+    /* section 1 */
+    section:first-of-type{
+        padding: 50px 0px;
+    }
+    .work{
+        width: 50%;
+    }
+    .work h2{
+        font-size: 2.2rem;
+    }
+    .work p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .about-work p{
+        font-size: 1rem;
+        margin-bottom: 20px;
+        line-height: 24px;
+    }
+    .about-work a{
+        font-size: 14px;
+    }
+
+
+
+   
+    /* Section 2 */
+    .testimony{
+        width: 50%;
+    }
+    .testimony h2{
+        font-size: 2.2rem;
+    }
+    .testimony p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .client-align{
+        padding: 0px 100px;
+    }
+
+    .client-align article{
+        width: 40%;
+        padding: 25px;
+    }
+    .client-align p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .client-details{
+        display: flex;
+    }
+
+
+
+
+
+    /* section 3 */
+   
+    .recent{
+        width: 45%;
+    }
+    .recent h2{
+        font-size: 2.5rem;
+    }
+    .recent p{
+        font-size: 1rem;
+        line-height: 24px;
+    }
+    .details h3{
+        font-size: 1.5rem;
+    }
+    .details p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .details a{
+        width: 9rem;
+        font-size: 14px;
+    }
+    .details a .right-arrow{
+        width: 6px;
+    }
+
+
+
+
+    
+     /* footer */
+    
+    .contact{
+        width: 40%;
+    }
+    .contact h2{
+        font-size: 2.2rem;
+    }
+    form{
+        width: 25%;
+    }
 }

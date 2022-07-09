@@ -774,65 +774,66 @@ button .right-arrow{
     nav{
         height: 70px;
         max-width: 90%;
-        padding: 0px 80px; 
+        padding: 0px 100px; 
     }
     .nav-link a{
         font-size: 12px;
-        padding-left: 30px;
+        font-size: 14px;
+        padding-left: 50px;
     }
     .socials a{
-       padding-left: 10px;
+       padding-left: 15px;
      }
     .socials > a img{
-        width: 16px;
-        height: 16px;
+        width: 18px;
+        height: 18px;
     }
     .profile{
-        padding: 50px 80px 40px 80px ;
+        padding: 50px 100px 40px 100px ;
     }
     .banner{
         width: 50%;
     }
     .banner h1{
-        font-size: 2.2rem;
+        font-size: 3rem;
     }
     .banner p{
-        font-size: 11px;
+        font-size: 1rem;
         padding: 20px 0px;
         line-height: 20px;
-
     }
     .banner a{
-        width: 250px;
+        width: 320px;
         margin: 0px;
-        padding: 20px 40px;
-        font-size: 12px;
+        padding: 20px 70px;
+        font-size: 14px;
         box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.5);
     }
     .banner a .right-arrow {
-        width: 6px;
-        height: 10px;
+        width: 8px;
+        height: 12px;
     }
-    
     .history{
         width: 90%;
-        padding: 0px 80px 40px 80px;
+        padding: 0px 100px 40px 100px;
     }
     span{
         font-size: 14px;
         padding-bottom: 20px;
     }
     .companies a{
-        width: 130px;
-        height: 50px;
+        width: 170px;
+        height: 60px;
     }
     .companies a img{
         width: 100%;
-        padding: 0px 30px;
-    }
-    .companies a:last-of-type img{
         padding: 0px 40px;
     }
+    .companies a:last-of-type img{
+        padding: 0px 50px;
+    }
+
+
 
 
 
@@ -842,17 +843,17 @@ button .right-arrow{
     }
 
     .work{
-        width: 60%;
+        width: 50%;
         margin: 0 auto;
         text-align: center;
         padding-bottom: 50px;
     }
     .work h2{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     .work p{
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 14px;
+        line-height: 24px;
     }
 
     .work-case{
@@ -883,16 +884,16 @@ button .right-arrow{
         margin-bottom: 20px;
     }
     .about-work p{
-        font-size: 11px;
+        font-size: 14.5px;
         margin-bottom: 20px;
-        line-height: 20px;
+        line-height: 24px;
     }
     .about-work a{
         font-size: 12px;
-        width: 200px;
+        width: 180px;
         text-align: center;
         font-weight: 700;
-        padding: 15px 30px;
+        padding: 10px 20px;
         color: #ffffff;
     }
     .about-work a .right-arrow{
@@ -906,35 +907,36 @@ button .right-arrow{
     }
 
 
+
     /* Section 2 */
     section:nth-of-type(2){
         padding: 60px 0px;
     }
     .testimony{
-        width: 60%;
+        width: 50%;
         margin: 0 auto;
         padding-bottom: 50px;
     }
     .testimony h2{
-        font-size: 2rem;
+        font-size: 2.2rem;
         font-weight: 700;
     }
     .testimony p{
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 10px;
-        line-height: 20px;
+        line-height: 24px;
     }
     .client-align{
         display: flex;
         justify-content: space-between;
-        padding: 0px 80px;
+        padding: 0px 100px;
         flex-wrap: wrap;
     }
 
     .client-align article{
-        width: 45%;
+        width: 40%;
         position: relative;
-        padding: 20px;
+        padding: 25px;
         border-width: 1px;
         border-style: solid;
         border-image: linear-gradient(to left,#0B0B0B 0%,#484848 100%) 1;
@@ -944,8 +946,8 @@ button .right-arrow{
         height: 20px;
     }
     .client-align p{
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 13px;
+        line-height: 20x;
         margin-bottom: 20px;
     }
     .client-details{
@@ -959,23 +961,26 @@ button .right-arrow{
 
 
 
+
+
+
     /* section 3 */
     section:nth-of-type(3){
         padding: 70px 0px;
     }
     .recent{
-        width: 55%;
+        width: 45%;
         margin: 0 auto;
         padding-bottom: 50px;
     }
     .recent h2{
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: 700;
     }
     .recent p{
-        font-size: 14px;
+        font-size: 1rem;
+        line-height: 24px;
         margin-top: 10px;
-        line-height: 20px;
     }
     .review{
         display: flex;
@@ -995,22 +1000,24 @@ button .right-arrow{
         width: 100%;
     }
     .details h3{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .details p{
+        font-size: 13px;
+        line-height: 24px;
         color: #9C9C9C;
-        font-size: 10px;
         margin-bottom: 15px;
-        line-height: 20px;
     }
     .details a{
-        width: 7.5rem;
-        font-size: 10px;
+        width: 9rem;
+        font-size: 13px;
         padding: 10px 20px;
     }
     .details a .right-arrow{
-        width: 5px;
+        width: 6px;
     }
+
+
 
 
 
@@ -1019,20 +1026,20 @@ button .right-arrow{
         padding: 70px 0px;
     }
     .contact{
-        width: 60%;
+        width: 40%;
         margin: 0 auto;
         padding-bottom: 50px;
     }
     .contact h2{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     .contact p{
-        font-size: 14px;
+        font-size: 13px;
         line-height: 24px;
         
     }
     form{
-        width: 33%;
+        width: 25%;
     }
     label{
         font-size: 14px;
@@ -1045,7 +1052,7 @@ button .right-arrow{
     button{
         width: 100%;
         padding: 12px 0px;
-        font-size: 1rem;
+        font-size: 14px;
     }
 
     .foot-lower{
@@ -1055,152 +1062,3 @@ button .right-arrow{
     
 }
 
-@media screen and (min-width:1440px) {
-    nav{
-        padding: 0px 100px; 
-    }
-    .nav-link a{
-        font-size: 14px;
-        padding-left: 50px;
-    }
-    .socials a{
-       padding-left: 15px;
-     }
-    .socials > a img{
-        width: 18px;
-        height: 18px;
-    }
-    .profile{
-        padding: 50px 100px 40px 100px ;
-    }
-    .banner h1{
-        font-size: 3rem;
-    }
-    .banner p{
-        font-size: 1rem;
-    }
-    .banner a{
-        width: 320px;
-        padding: 20px 70px;
-        font-size: 14px;
-    }
-    .banner a .right-arrow {
-        width: 8px;
-        height: 12px;
-    }
-    .history{
-        padding: 0px 100px 40px 100px;
-    }
-    .companies a{
-        width: 170px;
-        height: 60px;
-    }
-    .companies a img{
-        padding: 0px 40px;
-    }
-    .companies a:last-of-type img{
-        padding: 0px 50px;
-    }
-
-
-
-    /* section 1 */
-    section:first-of-type{
-        padding: 50px 0px;
-    }
-    .work{
-        width: 50%;
-    }
-    .work h2{
-        font-size: 2.2rem;
-    }
-    .work p{
-        font-size: 14px;
-        line-height: 24px;
-    }
-    .about-work p{
-        font-size: 0.97rem;
-        margin-bottom: 20px;
-        line-height: 24px;
-    }
-    .about-work a{
-        font-size: 14px;
-    }
-
-
-
-   
-    /* Section 2 */
-    .testimony{
-        width: 50%;
-    }
-    .testimony h2{
-        font-size: 2.2rem;
-    }
-    .testimony p{
-        font-size: 14px;
-        line-height: 24px;
-    }
-    .client-align{
-        padding: 0px 100px;
-    }
-
-    .client-align article{
-        width: 40%;
-        padding: 25px;
-    }
-    .client-align p{
-        font-size: 14px;
-        line-height: 24px;
-    }
-    .client-details{
-        display: flex;
-    }
-
-
-
-
-
-    /* section 3 */
-   
-    .recent{
-        width: 45%;
-    }
-    .recent h2{
-        font-size: 2.5rem;
-    }
-    .recent p{
-        font-size: 1rem;
-        line-height: 24px;
-    }
-    .details h3{
-        font-size: 1.5rem;
-    }
-    .details p{
-        font-size: 14px;
-        line-height: 24px;
-    }
-    .details a{
-        width: 9rem;
-        font-size: 14px;
-    }
-    .details a .right-arrow{
-        width: 6px;
-    }
-
-
-
-
-    
-     /* footer */
-    
-    .contact{
-        width: 40%;
-    }
-    .contact h2{
-        font-size: 2.2rem;
-    }
-    form{
-        width: 25%;
-    }
-}
